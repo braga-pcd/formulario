@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Michroma", sans-serif;
+
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: rgb(77, 55, 97);
+    color: aliceblue;
+    padding-inline: 2rem;
+}
+
+#page {
+    max-width: 120rem;
+    margin-inline: auto;
+}
+
+header{
+    padding-block: 2rem;
+    text-align: center;
+    
+}
+
+fieldset{
+    padding:1.5rem;
+    border-radius: 1rem;
+    margin-block: 3rem;
+    border: 1px solid rgb(255, 195, 252);
+}
+
+label{
+    display: block;
+}
+div{
+    margin-bottom: 1rem;
+}
+
+input{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+input:focus,
+input:hover{
+    outline: 2px solid rgb(179, 42, 137);
+}
+
+input::placeholder{
+    color: rgb(128, 128, 128);
+}
+
+input[type=checkbox],
+input[type=radio]{
+ outline: none;
+}
+
+input+label{
+    display: inline;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+textarea,
+select{
+    resize: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+textarea:focus,
+textarea:hover,
+select:hover,
+select:focus{
+    outline: 2px solid rgb(179, 42, 137);
+}
+
+button{
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(74, 145, 3);
+    border: none;
+    color: aliceblue;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(108, 212, 3);
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+
